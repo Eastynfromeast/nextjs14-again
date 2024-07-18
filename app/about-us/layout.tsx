@@ -11,5 +11,3 @@ export default function AboutUsLayout({ children }: { children: React.ReactNode 
 		</div>
 	);
 }
-
-// layout get nested
