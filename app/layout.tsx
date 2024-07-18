@@ -4,7 +4,7 @@ import Naviagation from "../components/navigation";
 export const metadata: Metadata = {
 	title: {
 		template: "%s | Next Movies",
-		default: "Loading...",
+		default: "Next Movies",
 	},
 	description: "The best movies on the best framework",
 };
@@ -30,5 +30,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         it can be merged
         should be only in server component
         we can make a template of metadata
+
+
+	dynamic routes
+		has a variable on url 
 
 */
