@@ -19,10 +19,6 @@ export default function Naviagation() {
 					<Link href="/about-us">About Us</Link>
 					{path === "/about-us" && "🩵"}
 				</li>
-				<li>
-					<span>{count}</span>
-					<button onClick={() => setCount(prev => prev + 1)}>plus</button>
-				</li>
 			</ul>
 		</nav>
 	);
