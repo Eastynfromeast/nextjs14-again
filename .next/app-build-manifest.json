@@ -24,6 +24,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about-us/layout.js"
+    ],
+    "/(home)/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(home)/loading.js"
     ]
   }
 }
