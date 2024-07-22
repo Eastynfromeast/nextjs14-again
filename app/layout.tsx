@@ -34,5 +34,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 	dynamic routes
 		has a variable on url 
+		directory -> [name of parameter] -> page.tsx
 
 */
